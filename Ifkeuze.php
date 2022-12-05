@@ -2,17 +2,17 @@
 
 $naam = readline("Geef jouw naam: ");
 $leeftijd = readline("Geef je leeftijd: ");
-$leeftijdCheck = 25;
+$leeftijdCheck = 21;
 echo "Hallo $naam \n";
 
 if ($leeftijd < $leeftijdCheck) {
-    echo "jij bent jonger dan 25 jaar.\n";
+    echo "jij bent jonger dan $leeftijdCheck jaar.\n";
 }
 if ($leeftijd > $leeftijdCheck) {
-    echo "jij bent ouder dan 25 jaar.\n";
+    echo "jij bent ouder dan $leeftijdCheck jaar.\n";
 }
 if ($leeftijd == $leeftijdCheck) {
-    echo "jij bent precies 25 jaar oud.\n";
+    echo "jij bent precies $leeftijdCheck jaar oud.\n";
 }
 
 ?>
