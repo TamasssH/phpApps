@@ -1,15 +1,13 @@
 <?php
 
-$teller = 8;
+$teller = 1;
 $maximum = 10;
-
-echo "de teller is voor de while lus: ".$teller."\n";
+$tekst = "Hello,World!\n";
 
 while ($teller <= $maximum) {
-    echo "Teller is nu: ".$teller."\n";
+    echo $tekst;
     $teller++;
 }
 
-echo "teller is na de while lus: ".$teller."\n";
 
 ?>
