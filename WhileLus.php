@@ -1,6 +1,6 @@
 <?php
 
-$teller = 15;
+$teller = 8;
 $maximum = 10;
 
 echo "de teller is voor de while lus: ".$teller."\n";
