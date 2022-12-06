@@ -15,4 +15,5 @@ for ($counter = 1; $counter <= 3; $counter++) {
     echo "  Maar na de func() uitgevoerd.\n";
     echo "- Deze code is na de for-lus uitgevoerd.\n";
 }
+
 ?>
