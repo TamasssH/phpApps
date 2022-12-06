@@ -4,10 +4,11 @@ $i = 0;
 $beurt = 0;
 $random = rand(1, 100);
 
+
 //Een keuze om te stoppen of beginnen.
 $stop = (string)readline("typ [stop] om te stoppen en [enter]om te starten met de quiz!\n");
 if ($stop == "stop" or $stop == "Stop") {
-    exit("De quiz is gestop!\n");
+    exit("De quiz is gestopt!\nJe hebt stop getypt, of je hebt een getal kleiner dan 0 of groter dan 100 ingevult!");
 }
 
 //Het begin van de quiz + de invoer
@@ -18,21 +19,20 @@ while ($i<1) {
 
     //Als je de invoer goed is gegokt.
     if ($invoer == $random) {
-        echo "Het antwoord is goed!\n\n";
+        echo "Het antwoord is goed!\n";
         echo "Je deed er: " .$beurt." beurt/beurten over!\n\n";
         $i = 1;
     } 
 
     //Een keuze om te stoppen.
     if ($stop == "stop" or $stop == "Stop") {
-        exit("De quiz is gestop!\n");
+        exit("De quiz is gestopt!\nJe hebt stop getypt, of je hebt een getal kleiner dan 0 of groter dan 100 ingevult!");
         
     }
 
     //Een check voor als je een te groot of te klein getal invult.
     if ($invoer > 100 or $invoer < 0) {
-        echo "Je kan een getal invullen die kleiner is dan 0 en groter is dan 100!\n";
-        exit("De quiz is gestop!\n");
+        exit("De quiz is gestopt!\nJe hebt stop getypt, of je hebt een getal kleiner dan 0 of groter dan 100 ingevult!");
     }
 
     //Als de invoer niet goed gegokt is.
