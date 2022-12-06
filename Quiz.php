@@ -1,7 +1,7 @@
 <?php
 //Wat variabelen
 $i = 0;
-$beurt = 0;
+$beurt = 1;
 $random = rand(1, 100);
 
 
@@ -31,7 +31,7 @@ while ($i<1) {
     }
 
     //Een check voor als je een te groot of te klein getal invult.
-    if ($invoer > 100 or $invoer < 0) {
+    if ($invoer > 100 or $invoer < 1)  {
         exit("De quiz is gestopt!\nJe hebt stop getypt, of je hebt een getal kleiner dan 0 of groter dan 100 ingevult!");
     }
 
