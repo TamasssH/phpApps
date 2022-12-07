@@ -5,5 +5,7 @@ $tekst2 = "Ik heb dit gemaakt wow cool.";
 
 echo $tekst;
 echo $tekst2;
+print "kanker kut print statement.";
+
 
 ?>
